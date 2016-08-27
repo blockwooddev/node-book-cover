@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/blockwooddev/node-book-cover#readme",
   "dependencies": {
-    "rune.js": "^0.4.3"
+    "rune.js": "^0.4.3",
+    "vdom-to-html": "^2.3.0"
   }
 }
