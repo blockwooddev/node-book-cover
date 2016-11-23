@@ -13,7 +13,6 @@ var r = new Rune({
 Design1.draw(r);
 
 var convertedSVG = toHTML(r.tree);
-console.log(convertedSVG);
 
 svg2png(new Buffer(convertedSVG), {width: 640, height: 480})
 .then(buffer => fs.writeFile("out/dest.png", buffer))
